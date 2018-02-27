@@ -1,0 +1,23 @@
+{
+  "name": "parcel-h5-kit",
+  "description": "h5 kit using parcel bundler",
+  "version": "1.0.0",
+  "author": "liulei",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development parcel index.html",
+    "prod": "npm run build",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-minify"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "postcss-modules": "^1.1.0",
+    "postcss-px-to-viewport": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.0.5",
+    "parcel-bundler": "^1.2.0"
+  }
+}

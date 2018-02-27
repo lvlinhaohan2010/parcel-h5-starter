@@ -1,0 +1,11 @@
+{
+  "modules": true,
+  "plugins": {
+    "autoprefixer": {
+      "grid": true
+    },
+    "postcss-px-to-viewport": {
+      "viewportWidth": 750
+   }
+  }
+}

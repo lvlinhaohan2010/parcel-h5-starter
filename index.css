@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+  sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+:global #app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+:global .test{
+  width: 75px;
+  height: 75px;
+  background: #c00;
+  color:#fff;
+  text-align: center;
+  transform:rotate(45deg);
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 300;
+} 
